@@ -15,8 +15,13 @@ The actual main function of the program simply initializes a GPS object and a sm
 
 ## Results
 1. Initialization:
+
 ![Alt text](Results/Initialization.png?raw=true "Initialization")
+
 2. Main Menu:
+
 ![Alt text](Results/Menu.png?raw=true "Menu")
+
 3. Searching for Speed:
+
 ![Alt text](Results/SearchingForSpeed.png?raw=true "SearchingForSpeed")
