@@ -1,6 +1,5 @@
 # CSCI2100_DataStruct_SpeedCalibration
-The goal of the function is to take speed data from a text file and adjust for noise and inaccurate values during processing to display a more accurate reading to the user
-The overall goal of this project and the program is to allow the user to access all necessary information regarding the GPS and smart watch data and subsequent calculations from it. As such, the GPS and smart watch data will be stored in member arrays of their respective class objects. The calculated accurate speed will be stored in a vector in the main function, and any further calculations involving just this vector will be functions defined in the main file. 
+The overall goal of this project and the program is to allow the user to access all necessary information regarding the GPS and smart watch data and subsequent calculations from it. As such, the GPS and smart watch data will be stored in member arrays of their respective class objects. The calculated accurate speed will be stored in a vector in the main function, and any further calculations involving this vector will be performed in functions defined in the main file. 
 
 ----------------------------------------------------------------------------------------------------
 
