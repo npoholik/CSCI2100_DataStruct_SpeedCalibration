@@ -10,8 +10,8 @@
 using namespace std;
 //********************************************************************************
 
-void calculateSpeed(GPSCalibration &gps,            // Averages out calibrated data and stores it in a vector for user
-smartWatchCalibration &watch, vector<double> &in);
+void calculateSpeed(GPSCalibration &gps,             // Averages out calibrated data and stores it in a vector for user
+smartWatchCalibration &watch, vector<double> &in); 
 void printSpeed(vector<double> &in);                // Print calculated speed to user
 void calculateAcceleration(vector<double> &in, int seconds);
 
@@ -76,7 +76,7 @@ int main() {
 
     // Speed Search
     else if (select == '6') {
-      char data = NULL;
+      char data = '0';
       cout << "Search the GPS Dataset or Smart Watch Dataset? G/W" << endl;
       cin >> data;
       // If the user inputs anything except G/W, then the program will throw an error
@@ -104,7 +104,7 @@ int main() {
 
     // Calculate acceleration for time t
     else if (select == '7') {
-      int secondsInput = NULL;
+      int secondsInput = -1;
       cout << "Input the time (in seconds) you want to find the acceleration at: ";
       cin >> secondsInput;
       calculateAcceleration(accurateSpeed, secondsInput);
